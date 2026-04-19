@@ -15,6 +15,7 @@ class order {
     int get_order() {
         System.out.print("Enter your order:");
         int order_add = sc.nextInt();
+        
 
         return order_add;
     }
