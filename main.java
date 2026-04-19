@@ -57,18 +57,18 @@ class main {
                 break;
 
             case 6:
-                Fast_food ff1 = new Fast_food();
-                ff1.Fast_food_item();
+                FastFood ff1 = new FastFood();
+                ff1.FastFood_item();
                 break;
 
             case 7:
-                Date_special ds1 = new Date_special();
-                ds1.Date_special_item();
+                DateSpecial ds1 = new DateSpecial();
+                ds1.DateSpecial_item();
                 break;
 
             case 8:
-                Family_special fs1 = new Family_special();
-                fs1.Family_special_item();
+                FamilySpecial fs1 = new FamilySpecial();
+                fs1.FamilySpecial_item();
                 break;
 
             default:

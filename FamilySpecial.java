@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class FamilySpecial {
+public class FamilySpecial{
 
     Scanner sc = new Scanner(System.in);
 
