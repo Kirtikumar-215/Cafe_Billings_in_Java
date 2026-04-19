@@ -52,7 +52,30 @@ class main {
                 break;
 
             case 5:
+                Fitness f1 = new Fitness();
+                f1.Fitness_item();
                 break;
+
+            case 6:
+                Fast_food ff1 = new Fast_food();
+                ff1.Fast_food_item();
+                break;
+
+            case 7:
+                Date_special ds1 = new Date_special();
+                ds1.Date_special_item();
+                break;
+
+            case 8:
+                Family_special fs1 = new Family_special();
+                fs1.Family_special_item();
+                break;
+
+            default:
+                System.out.println("Invalid selection. Please try again.");
+
+
+         
         }
 
     }
